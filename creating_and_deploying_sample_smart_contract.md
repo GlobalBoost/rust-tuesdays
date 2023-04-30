@@ -17,8 +17,8 @@ To deploy an ink! contract on a substrate node, you can follow these steps:
    - decrement_counter: This function will decrease the value of the counter by 1 there by changing the state of the value in the blockchain
    - get_counter: This function will return the existing value of the counter and doesn't change the state of the value.
    ### Creation
-   - Go to the terminal or vscode and run the command below
-   - Create your contract ```cargo contract new counter```
+   - Go to the terminal or vscode
+   - Run the command to Create your contract ```cargo contract new counter```
    - Then go inside the created contract folder ```cd counter```
    - You will see a ```lib.rs``` file and a ```Cargo.toml```
      Please remove the existing code and add the following code snippet in your ```lib.rs``` file 
