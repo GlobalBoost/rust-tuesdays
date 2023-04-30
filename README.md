@@ -6,4 +6,7 @@ This repository is designed to track all the rust tuesday meetups, providing a c
 
  - [Building and Deploying an Ink Smart Contract](https://github.com/GlobalBoost/rust-tuesdays/blob/main/building_and_deploying.md)
 
-### First session: The task for the session is added here https://github.com/GlobalBoost/rust-tuesdays/issues/1
+### Session: 
+|                  Session no.                               |      Date      |  Winners |
+|------------------------------------------------------------|:--------------:|---------:|
+| [1](https://github.com/GlobalBoost/rust-tuesdays/issues/1) |  TBD           |   TBD    |
