@@ -1,5 +1,5 @@
 
-# Deploying an Ink! based Smart Contract on a Substrate Node
+# Deploying a Sample Counter Ink! based Smart Contract on a Substrate Node
 
 To deploy an ink! contract on a substrate node, you can follow these steps:
 
