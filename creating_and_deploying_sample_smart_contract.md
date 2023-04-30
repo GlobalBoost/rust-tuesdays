@@ -199,9 +199,9 @@ mod counter {
 
 ```
  
-## Build your contract using the command below
+## Compile and Build your contract
   
-   - ```cargo +nightly contract build```
+   - Run the command from your contract folder ```cargo contract build```
    - You will see a target folder generated with the artifacts which you will be needing in the next step
   
 ## Deploying your contract on the impact chain 
