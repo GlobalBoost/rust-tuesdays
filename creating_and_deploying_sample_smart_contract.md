@@ -202,29 +202,56 @@ mod counter {
 ## Compile and Build your contract
   
    - Run the command from your contract folder ```cargo contract build```
-   - You will see a target folder generated with the artifacts which you will be needing in the next step
+   - You will see a target folder generated with the artifacts which you will be needing in the next step, the artifacts are shown below
+     <img src="./images/artifacts_generated.png" alt="Alt text" width="700" height="400">
   
 ## Deploying your contract on the impact chain 
 
-   - Open the Polkadot JS UI in your browser and connect it to your local node. You can do this by clicking on the "Settings" icon on the top right corner of the page and selecting your node from the dropdown menu.
+   - Open the Polkadot JS UI in your browser and connect it to your local node or you can directly go [here](https://polkadot.js.org/apps/?rpc=wss://rpc.testnet.impactprotocol.network) for deploying in our testnet
 
    - In the "Developer" section of the UI, click on "Contracts" and then you will redirected to Contract upload page where you can see any existing contracts that is being uoloaded in the chain. To Deploy your contract click on the ```Upload & Deploy Code``` button
+     <img src="./images/contract_dashboard_home.png" alt="Alt text" width="700" height="400">
    
-   - You will see a popup asking the metadata json file, select the json file from your contract located in the `target/ink` directory by clicking on the "Choose File" button.
+   - You will see a popup asking the metadata json file, select the json file from your contract located in the `target/ink` directory(as shown above) by clicking on the "Choose File" button.
+    <img src="./images/upload_artifact_1.png" alt="Alt text" width="700" height="400">
 
    - Next it will ask for the compiled WASM contract file the "Upload WASM" page, select the compiled Wasm file from your contract located in the `target/ink/` directory by clicking on the "Choose File" button. 
+     <img src="./images/upload_artifact_2.png" alt="Alt text" width="700" height="400">
 
    - Click on "Next" button and you can choose the contructor if you have multiple to initialize your contract
+      <img src="./images/upload_artifact_3.png" alt="Alt text" width="700" height="400">
 
-   - On the "Review WASM" page, you can view information about your contract, such as its size and hash. 
+   - Click on "Deploy" to deploy your contract. You will be prompted to sign and submit. Check the account you want to deploy from and click ```Sign and Submit```
+    <br/><br/>
+    <br/>
+    <img src="./images/sign_and_submit.png" alt="Alt text" width="700" height="400">
+    <br/><br/>
+   - Check your contract deploying and once its deployed in the explorer 
+    <br/><br/>
+    <img src="./images/contract_created_explorer.png" alt="Alt text" width="700" height="400">
+    <br/><br/>
+   - Once the contract is deployed, you can see it contracts dashboard.
+    <br/><br/>
+  <img src="./images/contracts_list.png" alt="Alt text" width="700" height="400">
+    <br/><br/>
 
-   - Click on "Deploy" to deploy your contract. You will be prompted to fill in the contract metadata, such as name, version, and author.
+   - From there, you can view information about your contract, such as its storage and calls. You can now try to test the get, increment and decrement methods from the ```counter``` Contract. Lets try to all the get method here
+    <br/><br/>
+    <img src="./images/contract_read.png" alt="Alt text" width="700" height="400">
+     <br/><br/>
+     You can see the value as 5
 
-   - Once the contract is deployed, you can interact with it using the Polkadot JS extension. You can do this by going to the "Explorer" section of the UI and selecting your contract from the dropdown menu. 
-
-   - From there, you can view information about your contract, such as its storage and calls. You can also test and interact with your contract by clicking on the "Contract" tab and using the provided UI to call its functions.
-
-That's it! You've successfully deployed an ink! contract on a substrate node using the UI.
+   - Now lets try to call the increment method from the ```counter``` Contract.
+    <br/><br/>
+    <img src="./images/contract_increment.png" alt="Alt text" width="700" height="400">
+     <br/><br/>
+     Lets read the value again and see 
+     <br/><br/>
+     <img src="./images/contract_read_after_increment.png" alt="Alt text" width="700" height="400">
+    <br/><br/>
+     You can see the value has increased to 6
+    <br/><br/>
+That's it! Congratulations you've successfully deployed an ink! contract on a substrate node(here in this case impact chain) using the UI and interacted with it
  
    
    
