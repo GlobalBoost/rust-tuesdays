@@ -5,7 +5,7 @@ This repository is designed to track all the rust tuesday meetups, providing a c
 ## Guides: 
 
  - [Building and Deploying an Ink Smart Contract](https://github.com/GlobalBoost/rust-tuesdays/blob/main/building_and_deploying.md)
- - [```Counter``` Ink Smart Contract deployment[(https://github.com/GlobalBoost/rust-tuesdays/blob/main/creating_and_deploying_sample_smart_contract.md)
+ - [```Counter``` Ink Smart Contract deployment](https://github.com/GlobalBoost/rust-tuesdays/blob/main/creating_and_deploying_sample_smart_contract.md)
 
 ### Session: 
 |                  Session no.                               |      Date      |  Winners |
