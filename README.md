@@ -10,4 +10,4 @@ This repository is designed to track all the rust tuesday meetups, providing a c
 ### Session: 
 |                  Session no.                               |      Date      |  Winners |
 |------------------------------------------------------------|:--------------:|---------:|
-| [1](https://github.com/GlobalBoost/rust-tuesdays/issues/1) |  TBD           |   TBD    |
+| [1](https://github.com/GlobalBoost/rust-tuesdays/issues/1) |    05/02/23    |   TBD    |
